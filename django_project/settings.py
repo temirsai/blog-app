@@ -38,8 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     "whitenoise.runserver_nostatic",
     'django.contrib.staticfiles',
+    # 3rd party
+    "rest_framework",
+    # Local
     'blog',
     "accounts.apps.AccountsConfig",
+    "apis", 
 ]
 
 MIDDLEWARE = [
